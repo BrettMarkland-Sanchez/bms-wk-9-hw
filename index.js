@@ -50,7 +50,7 @@ function init() {
     .then((response) => {
         //console.log(response);
         let data = JSON.stringify(response);
-        writeToFile(`README.md`, data);
+        writeToFile(`README(test).md`, data);
     });
 }
 
