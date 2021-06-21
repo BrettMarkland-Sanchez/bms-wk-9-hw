@@ -8,32 +8,37 @@ const questions = [
     {
         type: 'input',
         message: 'What should this project be called?',
-        name: 'Title',
+        name: 'title',
     },
     {
         type: 'input',
         message: 'Please provide a description for the project:',
-        name: 'Description',
+        name: 'description',
+    },
+    {
+        type: 'input',
+        message: 'If applicable, choose a license from the following numbered list:\n (1) Apache-2.0 \n (2) BSD-3-Clause \n (3) BSD-2-Clause \n (4) GNU-GPL-v3 \n (5) GNU-LGPL-v3 \n (6) MIT \n (7) MPL-2.0 \n (8) EPL-1.0 \n',
+        name: 'license',
     },
     {
         type: 'input',
         message: 'Specify installation instructions:',
-        name: 'Installation',
+        name: 'install',
     },
     {
         type: 'input',
         message: `What is the project's purpose/usage?`,
-        name: 'Usage',
+        name: 'usage',
     },
     {
         type: 'input',
         message: 'How best can others contribute to the project?',
-        name: 'Contributing',
+        name: 'contribute',
     },
     {
         type: 'input',
         message: 'Specify testing instructions:',
-        name: 'Tests',
+        name: 'test',
     },
 ];
 
@@ -47,11 +52,11 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
     .prompt(questions)
-    .then((response) => {
-        //console.log(response);
-        let data = JSON.stringify(response);
-        writeToFile(`README(test).md`, data);
-    });
+        .then((response) => {
+            let markdown = generateMarkdown(response);
+            //console.log(markdown);
+            writeToFile(`./output/README.md`, markdown);
+        });
 }
 
 // Function call to initialize app
