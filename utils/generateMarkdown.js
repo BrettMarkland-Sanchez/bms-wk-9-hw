@@ -1,7 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  switch (license) {
+  const foo = Number(license);
+  switch (foo)  {
     case 1: {
       return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     };
@@ -43,7 +44,8 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  switch (license) {
+  const foo = Number(license);
+  switch (foo) {
     case 1: {
       return `https://opensource.org/licenses/Apache-2.0`
     };
@@ -85,70 +87,62 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  switch (license) {
+  const foo = Number(license);
+  switch (foo) {
     case 1: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under Apache License 2.0\n
-      \n
+      Licensed under Apache License 2.0.\n
       `
     };
       break;
     case 2: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under BSD 3-Clause\n
-      \n`
+      Licensed under BSD 3-Clause.\n
+      `
     };
       break;
     case 3: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under BSD 2-Clause\n
-      \n`
+      Licensed under BSD 2-Clause.\n
+      `
     };
       break;
     case 4: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under GNU General Public License (GPL)\n
-      \n`
+      Licensed under GNU General Public License (GPL).\n
+      `
     };
       break;
     case 5: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under GNU "Lesser" General Public License (LGPL)\n
-      \n`
+      Licensed under GNU "Lesser" General Public License (LGPL).\n
+      `
     };
       break;
     case 6: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under the MIT license\n
-      \n`
+      Licensed under the MIT license.\n
+      `
     };
       break;
     case 7: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under Mozilla Public License 2.0\n
-      \n`
+      Licensed under Mozilla Public License 2.0.\n
+      `
     };
       break;
     case 8: {
       return `
       Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      \n
-      Licensed under Eclipse Public License 2.0\n
-      \n`
+      Licensed under Eclipse Public License 2.0.\n
+      `
     };
       break;
     default: {

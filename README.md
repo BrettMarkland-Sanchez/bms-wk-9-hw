@@ -1,6 +1,6 @@
 
   # Week 9 Node.JS: README Generator
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   Utilizes the Node package Inquirer to dynamically create quality README files.
   ## Table of Contents
@@ -21,8 +21,13 @@
   To test, run using 'node index' in Bash/PowerShell from the root directory.
   ## License
   
+      Copyright © Brett Markland-Sanchez. All rights reserved.
+
+      Licensed under the MIT license.
+
+      
 
   Find a copy of this license here:
 
-  
+  https://opensource.org/licenses/MIT
   
