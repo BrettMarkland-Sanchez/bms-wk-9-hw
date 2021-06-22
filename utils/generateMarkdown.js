@@ -179,11 +179,13 @@ function generateMarkdown(data) {
   ${data.usage}
   ## Contributions
   ${data.contribute}
+  ### Brett.MarklandSanchez@gmail.com
+  ### https://github.com/BrettMarkland-Sanchez
   ## Testing
   ${data.test}
   ## License
-  ${licenseSection}
-  \n Find a copy of this license here: \n
+  ${licenseSection}\n
+  Find a copy of this license here:\n
   ${licenseLink}
   `;
 }
