@@ -1,12 +1,8 @@
 
-  # Week 9 Node.js: README Generator
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Test Example Project
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   ## Description
-  Utilizes the Node package Inquirer to dynamically create quality README files.
-  ## Video Example using Node in VS Code
-  [![Video Example Link](https://i.ibb.co/DC7xFfs/README-Generator.png)](https://vimeo.com/565915471 "Test Example Project")
-  ## Repo
-  https://github.com/BrettMarkland-Sanchez/bms-wk-9-hw
+  This project demonstrates the output created by the README generator.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -23,16 +19,15 @@
   ### https://github.com/BrettMarkland-Sanchez
   ## Testing
   To test, run using 'node index' in Bash/PowerShell from the root directory.
-  An example of this program's output can be found in the 'output' folder.
   ## License
   
       Copyright © Brett Markland-Sanchez. All rights reserved.
 
-      Licensed under the MIT license.
+      Licensed under GNU General Public License (GPL).
 
       
 
   Find a copy of this license here:
 
-  https://opensource.org/licenses/MIT
+  https://opensource.org/licenses/gpl-license
   
