@@ -91,57 +91,57 @@ function renderLicenseSection(license) {
   switch (foo) {
     case 1: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under Apache License 2.0.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under Apache License 2.0.\n
       `
     };
       break;
     case 2: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under BSD 3-Clause.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under BSD 3-Clause.\n
       `
     };
       break;
     case 3: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under BSD 2-Clause.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under BSD 2-Clause.\n
       `
     };
       break;
     case 4: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under GNU General Public License (GPL).\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under GNU General Public License (GPL).\n
       `
     };
       break;
     case 5: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under GNU "Lesser" General Public License (LGPL).\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under GNU "Lesser" General Public License (LGPL).\n
       `
     };
       break;
     case 6: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under the MIT license.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under the MIT license.\n
       `
     };
       break;
     case 7: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under Mozilla Public License 2.0.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under Mozilla Public License 2.0.\n
       `
     };
       break;
     case 8: {
       return `
-      Copyright © Brett Markland-Sanchez. All rights reserved.\n
-      Licensed under Eclipse Public License 2.0.\n
+    Copyright © Brett Markland-Sanchez. All rights reserved.\n
+    Licensed under Eclipse Public License 2.0.\n
       `
     };
       break;

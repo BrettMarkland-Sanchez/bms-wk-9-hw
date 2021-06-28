@@ -1,8 +1,8 @@
 
-  # Test Example Project
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  # Team Profile Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  This project demonstrates the output created by the README generator.
+  Takes user input via the console in Node to produce a coding team webpage.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,22 +12,22 @@
   ## Installation
   Clone this repo to your Node environment and follow NPM install guide for dependencies.
   ## Usage
-  This project is used to create professional README files quickly from user input.
+  This project explores using Node to create HTML files dynamically with testing from Jest.
   ## Contributions
   To contribute, please submit any recommended changes by email.
   ### Brett.MarklandSanchez@gmail.com
   ### https://github.com/BrettMarkland-Sanchez
   ## Testing
-  To test, run using 'node index' in Bash/PowerShell from the root directory.
+  Tests included validate the logic for the team display and each of the constructors.
   ## License
   
       Copyright © Brett Markland-Sanchez. All rights reserved.
 
-      Licensed under GNU General Public License (GPL).
+      Licensed under the MIT license.
 
       
 
   Find a copy of this license here:
 
-  https://opensource.org/licenses/gpl-license
+  https://opensource.org/licenses/MIT
   
