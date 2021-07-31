@@ -6,7 +6,7 @@
   ## Video Example using Node in VS Code
   [![Video Example Link](https://i.ibb.co/DC7xFfs/README-Generator.png)](https://vimeo.com/565915471 "Test Example Project")
   ## Repo
-  https://github.com/BrettMarkland-Sanchez/bms-wk-9-hw
+  https://github.com/BrettMarkland-Sanchez/readme-generator
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
