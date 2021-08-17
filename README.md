@@ -1,5 +1,5 @@
 
-  # Week 9 Node.js: README Generator
+  # Coding Bootcamp Wk9 HW: README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   Utilizes the Node package Inquirer to dynamically create quality README files.
